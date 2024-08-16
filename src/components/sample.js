@@ -121,7 +121,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2021
+          2022 
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -129,44 +129,18 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Customer Service Representative
+            
+Supervisor and Customer Service Specialist
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Teleperformance, Greece
+            Teleperformance Greece, Remote
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Assisted customers with inquiries and resolved issues efficiently, maintaining high levels of customer satisfaction during peak periods.
-          </Typography> {/* Closing tag added here */}
-        </Box>
-      </Box>
-      <Box component="div" className={classes.timeLine}>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2022
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Operations Team Lead
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            Teleperformance, Greece
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Led a team of customer service representatives, implemented effective training programs, improved team efficiency by 20%, developed and delivered engaging content, trained new team members, and managed a team of 30 German-speaking agents to perform high-quality work within budget constraints.
+            I led a team of customer service representatives, improving team efficiency by 20% through effective training programs. I also developed engaging content, trained new team members in company policies, and managed a team of 30 German-speaking agents, ensuring high-quality work within budget constraints
           </Typography>
         </Box>
         <Typography
@@ -184,14 +158,14 @@ const Resume = () => {
             Software Engineer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Upwork, Remote
+            Upwork, Remote 
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Specialize in creating captivating frontend experiences using tools like React.js, Next.js, and Material UI, and building robust backend systems with Flask, Node.js, and PostgreSQL. I also craft designs with Tailwind CSS and Material UI, delivering comprehensive web solutions tailored to unique needs.
+            As a part-time Software Engineer at Upwork since January 2023, I specialize in creating captivating frontend experiences using tools like React.js, Next.js, and Material UI, ensuring visually stunning and intuitive user interfaces. Leveraging Flask, Node.js, and PostgreSQL, I also build robust backend systems for smooth data management and seamless API integrations. My design skills with Tailwind CSS and Material UI enhance usability and engagement, resulting in complete web solutions from concept to deployment tailored to unique needs.
           </Typography>
         </Box>
         <Typography
@@ -206,17 +180,17 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Auditor and German Customer Service Representative
+            Auditor and Customer Service Representative
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Invisible Technologies, United States, Remote
+          Invisible Technologies, United States, Remote 
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Transcribed menus for various companies, conducted cold calls to maintain records, and audited colleagues' work to ensure quality.
+           As an Auditor and German Customer Service Representative from February 2023 to January 2024, I undertook various responsibilities, including transcribing menus for different companies, cold calling merchants from different countries to maintain clear records as instructed by clients, and auditing my colleagues' work to ensure quality standards were upheld.
           </Typography>
         </Box>
         <Typography
@@ -231,61 +205,17 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Advanced AI Trainer - Software Development
+            Advanced AI Data Trainer - Software Development
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Invisible Technologies, United States, Remote
+           Invisible Technologies, United States, Remote 
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Optimized AI performance by analyzing backend codes, evaluated AI performance, tested AI to improve recovery mechanisms, and played a vital role in ensuring AI safety, accuracy, and effectiveness in critical applications.
-          </Typography>
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2024
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Quality Analyst
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            Invisible Technologies, United States, Remote
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Conducted extensive testing of AI-driven software, analyzed and resolved software issues, developed quality assurance protocols, optimized processes, and verified AI safety and accuracy to meet stringent quality criteria.
-          </Typography>
-        </Box>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Founder & Senior Software Engineer
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            IzzieDevs, Kenya
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Visionary leadership, business development, market analysis, financial management, team building, and culture building at IzzieDevs. As a Senior Software Engineer, I oversee project management, maintain high-quality standards, contribute technically, provide technical leadership, and evaluate emerging technologies.
+            As an Advanced AI Trainer in Software Development, I specialize in optimizing AI performance by delving into intricate backend codes, analyzing diverse subject matter to discern facts, context, and behavioral patterns in AI interactions, and continuously evaluating AI performance against established criteria and training methods. I also assess the accuracy of factual outputs and proficiency in interpretation, actively test AI by inducing errors to refine and improve recovery mechanisms, document encountered issues, and recommend enhancements to training methods. My role plays a vital part in ensuring AI safety, accuracy, and effectiveness in critical applications.
           </Typography>
         </Box>
       </Box>
