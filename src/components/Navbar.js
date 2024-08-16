@@ -99,7 +99,6 @@ const Navbar = () => {
               <Menu className={classes.arrow} />
             </IconButton>
             <Typography variant="h5" className={classes.title}>
-              Portfolio
             </Typography>
           </Toolbar>
         </AppBar>
