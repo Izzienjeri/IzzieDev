@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   timeLine: {
     position: "relative",
     padding: "1rem",
-    margin: "o auto",
+    margin: "0 auto",
     "&:before": {
       content: "''",
       position: "absolute",
@@ -140,10 +140,8 @@ const Resume = () => {
             className={classes.subtitle1}
           >
             Assisted customers with inquiries and resolved issues efficiently, maintaining high levels of customer satisfaction during peak periods.
-          </Typography> {/* Closing tag added here */}
+          </Typography> 
         </Box>
-      </Box>
-      <Box component="div" className={classes.timeLine}>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
