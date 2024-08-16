@@ -273,7 +273,7 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Founder & Senior Software Engineer
+            Founder & Software Engineer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             IzzieDevs, Kenya
