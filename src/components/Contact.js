@@ -7,6 +7,8 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import Send from "@material-ui/icons/Send";
 import emailjs from 'emailjs-com';
+import config from "./config";
+
 
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
@@ -83,21 +85,19 @@ const Contact = () => {
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
     try {
       await emailjs.send(
-        "service_rb23ccx", // Your EmailJS Service ID
-        "template_ybmf1qd", // Your EmailJS Template ID
+        config.EMAILJS_SERVICE_ID, 
+        config.EMAILJS_TEMPLATE_ID, 
         {
           name: values.name,
           email: values.email,
           message: values.message,
         },
-        "FjnoGd26TgnnRvYtg" // Your EmailJS Public Key (User ID)
+        config.EMAILJS_USER_ID
       );
       console.log("Email sent successfully!");
       resetForm();
-      // Optionally, show a success message or redirect the user
     } catch (error) {
       console.error("Error sending email:", error);
-      // Handle error (e.g., show error message)
     } finally {
       setSubmitting(false);
     }
