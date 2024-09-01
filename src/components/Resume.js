@@ -117,11 +117,12 @@ const Resume = () => {
         Working Experience
       </Typography>
       <Box component="div" className={classes.timeLine}>
+        {/* Most Recent Role */}
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2021
+          2024
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -129,42 +130,67 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Customer Service Representative
+            Founder & Software Engineer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Teleperformance, Greece
+            IzzieDevs, Kenya
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Assisted customers with inquiries and resolved issues efficiently, maintaining high levels of customer satisfaction during peak periods.
-          </Typography> 
+            Visionary leadership, business development, market analysis, financial management, team building, and culture building at IzzieDevs. As a Software Engineer, I oversee project management, maintain high-quality standards, contribute technically, provide technical leadership, and evaluate emerging technologies.
+          </Typography>
         </Box>
-        <Typography
+        {/* <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2022
-        </Typography>
+          2024
+        </Typography> */}
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
             align="center"
             className={classes.subHeading}
           >
-            Operations Team Lead
+            Quality Analyst
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Teleperformance, Greece
+            Invisible Technologies, United States, Remote
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Led a team of customer service representatives, implemented effective training programs, improved team efficiency by 20%, developed and delivered engaging content, trained new team members, and managed a team of 30 German-speaking agents to perform high-quality work within budget constraints.
+            Conducted extensive testing of AI-driven software, analyzed and resolved software issues, developed quality assurance protocols, optimized processes, and verified AI safety and accuracy to meet stringent quality criteria.
+          </Typography>
+        </Box>
+        {/* <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2024
+        </Typography> */}
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Advanced AI Trainer - Software Development
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            Invisible Technologies, United States, Remote
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Optimized AI performance by analyzing backend codes, evaluated AI performance, tested AI to improve recovery mechanisms, and played a vital role in ensuring AI safety, accuracy, and effectiveness in critical applications.
           </Typography>
         </Box>
         <Typography
@@ -221,7 +247,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2024
+          2022
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -229,61 +255,42 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Advanced AI Trainer - Software Development
+            Operations Team Lead
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Invisible Technologies, United States, Remote
+            Teleperformance, Greece
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Optimized AI performance by analyzing backend codes, evaluated AI performance, tested AI to improve recovery mechanisms, and played a vital role in ensuring AI safety, accuracy, and effectiveness in critical applications.
+            Led a team of customer service representatives, implemented effective training programs, improved team efficiency by 20%, developed and delivered engaging content, trained new team members, and managed a team of 30 German-speaking agents to perform high-quality work within budget constraints.
           </Typography>
         </Box>
-        <Typography
+        {/* <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2024
-        </Typography>
+          2021
+        </Typography> */}
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
             align="center"
             className={classes.subHeading}
           >
-            Quality Analyst
+            Customer Service Representative
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Invisible Technologies, United States, Remote
+            Teleperformance, Greece
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Conducted extensive testing of AI-driven software, analyzed and resolved software issues, developed quality assurance protocols, optimized processes, and verified AI safety and accuracy to meet stringent quality criteria.
-          </Typography>
-        </Box>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Founder & Software Engineer
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            IzzieDevs, Kenya
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Visionary leadership, business development, market analysis, financial management, team building, and culture building at IzzieDevs. As a Senior Software Engineer, I oversee project management, maintain high-quality standards, contribute technically, provide technical leadership, and evaluate emerging technologies.
+            Provided exceptional customer service, handled inquiries, resolved complaints, and ensured customer satisfaction by delivering timely and effective solutions.
           </Typography>
         </Box>
       </Box>
