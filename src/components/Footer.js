@@ -31,7 +31,7 @@ const Footer = () => {
       <a href="https://github.com/Izzienjeri" target="_blank" rel="noopener noreferrer">
         <BottomNavigationAction icon={<GitHubIcon />} className={classes.root} />
       </a>
-      <a href="https://www.linkedin.com/in/elizabeth-njeri-661912293" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/izziedev/" target="_blank" rel="noopener noreferrer">
         <BottomNavigationAction icon={<LinkedInIcon />} className={classes.root} />
       </a>
       <a href="/Profile.pdf" target="_blank" rel="noopener noreferrer">
