@@ -3,6 +3,6 @@ const config = {
     EMAILJS_TEMPLATE_ID: process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
     EMAILJS_USER_ID: process.env.REACT_APP_EMAILJS_USER_ID,
 };
-  
+
 export default config;
   
