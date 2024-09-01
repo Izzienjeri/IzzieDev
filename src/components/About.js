@@ -42,7 +42,7 @@ const About = () => {
           A Software Engineer passionate about transforming ideas into digital realities. With a Bachelor's in Mathematics and Computer Science from Multimedia University of Kenya and training from Moringa School in Software Engineering, I've honed my skills across various frameworks and languages.
         </Typography>
         <Typography variant="body2" className={classes.aboutText}>
-          In web development, I excel in Flask, Next.js, React, TypeScript,SCSS, Tailwind CSS,Material UI and Admin LTE, crafting captivating frontend experiences and robust backend systems with seamless REST API integrations.
+          In web development, I specialize in crafting dynamic and visually appealing frontend experiences using modern frameworks like Next.js, React, and TypeScript. I leverage CSS preprocessors (SCSS) and styling libraries (Tailwind CSS, Material UI, Admin LTE) to deliver polished interfaces. On the backend, I have a strong foundation in building robust REST APIs using Flask and am proficient in working with PostgreSQL and MongoDB databases to manage data efficiently.
         </Typography>
         <Typography variant="body2" className={classes.aboutText}>
           My expertise extends to AI optimization, where I optimize performance by delving into intricate backend codes, analyze diverse subject matter for AI interactions, and ensure accuracy and safety in critical applications. Beyond coding, I'm a natural leader, having supervised teams to improved efficiency by 20%. I foster a culture of continuous learning and enjoy reading to stay ahead in this ever-evolving tech landscape. Let's collaborate and bring your digital dreams to life!
