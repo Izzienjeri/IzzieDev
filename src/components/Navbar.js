@@ -25,17 +25,25 @@ import Footer from "../components/Footer";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
-    background: "black", // Change background color to black
+    background: "black",
     margin: 0,
+    height: "80px", // Increase height for a larger menu bar
   },
   arrow: {
     color: "tan",
+    fontSize: "2rem", // Increase size of the menu icon
   },
   title: {
-    color: "white", // Change the color to white
+    color: "white",
+    flexGrow: 1,
+    fontSize: "1.8rem", // Adjust font size to make the title larger
+  },
+  toolbar: {
+    minHeight: "80px", // Match the height of the AppBar
+    padding: theme.spacing(2), // Add padding for spacing
   },
   menuSliderContainer: {
-    width: 250,
+    width: 300, // Increase the drawer width for a larger menu
     background: "black",
     height: "100%",
   },
@@ -47,6 +55,7 @@ const useStyles = makeStyles((theme) => ({
   },
   listItem: {
     color: "tan",
+    padding: theme.spacing(2), // Add padding to list items for a larger feel
   },
 }));
 
